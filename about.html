@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Sabores Puracé</title>
+    <style>
+        /* Resetting margin and padding for all elements */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        /* Body styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to right, #ffcccb, #ffe0e0);
+            color: #333;
+            text-align: center;
+            padding: 50px;
+        }
+
+        /* Styling for the container */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 5px solid #ff69b4;
+            border-radius: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+
+        /* Heading Styles */
+        h1 {
+            font-size: 36px;
+            color: #ff1493;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 28px;
+            color: #ff6347;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 20px;
+            margin: 10px 0;
+        }
+
+        /* Floating Ice Cream animation */
+        @keyframes float {
+            0% { transform: translateY(0); }
+            50% { transform: translateY(-15px); }
+            100% { transform: translateY(0); }
+        }
+
+        .floating {
+            animation: float 2s ease-in-out infinite;
+        }
+
+        /* Ice Cream Icon */
+        .ice-cream {
+            font-size: 50px;
+            color: #ff6347;
+            margin-top: 20px;
+        }
+
+        .ice-cream:hover {
+            transform: scale(1.2);
+            color: #ff1493;
+        }
+
+        /* Contact Info */
+        .contact-info {
+            margin-top: 30px;
+            padding: 15px;
+            background-color: #f8f8f8;
+            border-radius: 10px;
+            display: inline-block;
+            font-size: 18px;
+            border: 2px solid #ff69b4;
+        }
+
+        .contact-info p {
+            margin: 8px 0;
+        }
+
+        .contact-info span {
+            font-weight: bold;
+        }
+
+        /* Add some margin to the bottom for the page */
+        footer {
+            margin-top: 40px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Proyecto Sabores Puracé</h1>
+        <h2>Desarrollado en el Curso de Programación Junior - Etapa 1 y 2</h2>
+
+        <div class="ice-cream floating">🍦</div>
+
+        <div class="contact-info">
+            <p><span>Nombre de la tienda:</span> Sabores Puracé</p>
+            <p><span>Número de la tienda:</span> 3148329692</p>
+            <p><span>Correo electrónico:</span> cristianalejandropizo122@gmail.com</p>
+        </div>
+
+        <footer>
+            <p>¡Gracias por visitar nuestra tienda!</p>
+        </footer>
+    </div>
+
+</body>
+</html>
